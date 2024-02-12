@@ -20,6 +20,8 @@
 
 .links{
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     flex:1;
     gap: 20px;
 }
