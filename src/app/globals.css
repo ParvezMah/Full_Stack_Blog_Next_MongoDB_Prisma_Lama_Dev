@@ -26,10 +26,8 @@ body{
     max-width: 1536px;
     margin-left:auto;
     margin-right:auto;
-    background-color: rebeccapurple;
     padding: 0 80px;
 }
-
 
 
 @media screen and (max-width:1536px) {
@@ -37,7 +35,6 @@ body{
         max-width: 1366px;
     } 
 }
-
 
 
 @media screen and (max-width:1280px) {
