@@ -20,6 +20,7 @@ const ThemeContextProvider = ({children}) => {
         setTheme(theme === "light" ? "dark" : "light");
     }
 
+    // Side Effect
     useEffect(()=>{
         localStorage.setItem("theme", theme)
     }, [theme]);

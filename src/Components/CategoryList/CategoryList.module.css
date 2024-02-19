@@ -26,21 +26,33 @@
 
 .category.style{
     background-color: #57c4ff31;
+    text-decoration: none;
+    color: var(--textColor);
 }
 .category.fashion{
     background-color: #b4ff21;
+    text-decoration: none;
+    color: var(--textColor);
 }
 .category.food{
     background-color: #7fb88133;
+    text-decoration: none;
+    color: var(--textColor);
 }
 .category.travel{
     background-color: #ff795736;
+    text-decoration: none;
+    color: var(--textColor);
 }
 .category.culture{
     background-color: #ffb04f45;
+    text-decoration: none;
+    color: var(--textColor);
 }
 .category.coding{
     background-color: #5e4fff31;
+    text-decoration: none;
+    color: var(--textColor);
 }
 
 .image{

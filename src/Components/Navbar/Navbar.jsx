@@ -18,10 +18,10 @@ const Navbar = () => {
             <div className={styles.logo}>LamaBlog</div>
             <div className={styles.links}>
                 <ThemeToggle/>
-                <Link href="/" className={styles.link}>Home</Link>
-                <Link href="/contacts" className={styles.link}>Contacts</Link>
-                <Link href="/about" className={styles.link}>About</Link>
-                <AuthLinks></AuthLinks>
+                <Link  href="/" className={`${styles.link} ${styles.Navlink}`}>Home</Link>
+                <Link  href="/contacts" className={`${styles.link} ${styles.Navlink}`}>Contacts</Link>
+                <Link  href="/about" className={`${styles.link} ${styles.Navlink}`}>About</Link>
+                <AuthLinks className={styles.Navlink}></AuthLinks>
             </div>
         </div>
     );

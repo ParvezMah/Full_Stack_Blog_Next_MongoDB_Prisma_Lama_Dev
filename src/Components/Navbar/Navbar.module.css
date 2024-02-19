@@ -26,6 +26,10 @@
     gap: 20px;
 }
 
+.Navlink{
+    text-decoration: none;
+    color: var(--textColor);
+}
 
 @media screen and (max-width:1280px) {
     .logo{
